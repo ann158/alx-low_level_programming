@@ -2,9 +2,8 @@
 #include <stdlib.h>
 
 /**
- * read_textfile - reads a text file and prints it to the standard output
- * @filename: name of the file to be read
- * @letters: number of letters to read and print
+ * read_textfile - Reads a text file and prints it to POSIX stdout.
+ * @filename: A pointer to the name of the file.
  * @letters: number of letters to read and print
  * Return: the number of letters printed, or 0 if it failed
  */
